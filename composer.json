@@ -1,0 +1,12 @@
+{
+    "name": "memaleph/memaleph",
+    "description": "Memaleph microsite",
+    "type": "project",
+    "require": {},
+    "scripts": {
+        "start": "php -S localhost:8085;"
+    },
+	"config": {
+    	"process-timeout":0
+ 	}	
+}

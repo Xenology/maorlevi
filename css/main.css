@@ -1,0 +1,162 @@
+html {
+	height: 100%;
+	width: 100%;
+	background: white;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+	height: 95%;
+	width: 97.5%;
+}
+
+/**
+ * Mobile Styles
+ **/
+@media only screen and (max-width: 730px) {
+
+
+
+}
+
+/** 
+ * Global Styles
+**/
+
+.sky {
+	height: 95%;
+	width: 97.5%;
+	position: absolute;
+  background-size: cover;
+	background-image: url('/img/background.jpeg');
+  z-index: 1;
+  opacity: 50%;
+}
+
+.content {	
+	background-color: black;
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	align-items: center;
+	position: relative;
+	height: 100%;
+}
+
+.featured {
+  height: 80%;
+  padding: 0;
+  margin: 0;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 100;
+}
+
+.logo {
+  width: 25%;	
+  margin: 20px auto;
+}
+
+.logo img {
+	animation: fadeIn ease 1s;
+	width: 100%;
+}
+
+.buy-listen-button {
+	display: flex;
+
+  background: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 250px;
+  width: 20%;
+  margin: 10px auto;
+  padding: 20px;
+  height: 25px;
+}
+
+.buy-listen-button a {
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1vw;
+	margin: 1.5vw auto;
+	color: black;
+  animation: fadeIn ease 1s;
+  transition: transform .2s;
+}
+
+.youtube {
+	width: 25%;
+	margin: 25px auto;
+	border: 5px white solid;
+}
+
+.socials {
+	display: none;
+  animation-delay: 2s;
+  animation: fadeIn ease 1s;
+  margin: 15px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+	width: 50px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+  z-index: 100;
+}
+
+.socials i {
+	border-radius: 25px;
+	background: #e2e2e2;
+	color: black;
+	padding: 10px;
+	margin: 7px auto;
+	width: 33px;
+	height: 33px;
+  animation: fadeIn ease 1s;
+  transition: transform .2s;
+}
+
+.clearfix {
+	clear: both;
+}
+
+i:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+a:hover {
+  transform: scale(1.1); /* (110% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+@keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
