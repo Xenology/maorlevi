@@ -40,6 +40,7 @@
                 <a href="http://bit.do/MaorLeviTwitter" target="_blank"><i class="fab fa-twitter"></i></a>
                 <a href="http://bit.do/MaorLeviInstagram" target="_blank"><i class="fab fa-instagram"></i></a>
                 <a href="http://bit.do/MaorLeviSnapchat" target="_blank"><i class="fab fa-snapchat"></i></a>
+                <a href="https://www.songkick.com/artists/2467251-maor-levi" target="_blank"><i class="fa fa-calendar"></i></a>
               </div>
               <div class="row">
                 <a href="http://bit.do/MLSpotify" target="_blank"><i class="fab fa-spotify"></i></a>
@@ -58,6 +59,7 @@
             <a href="http://bit.do/MaorLeviTwitter" target="_blank"><i class="fab fa-twitter"></i></a>
             <a href="http://bit.do/MaorLeviInstagram" target="_blank"><i class="fab fa-instagram"></i></a>
             <a href="http://bit.do/MaorLeviSnapchat" target="_blank"><i class="fab fa-snapchat"></i></a>
+            <a href="https://www.songkick.com/artists/2467251-maor-levi" target="_blank"><i class="fa fa-calendar"></i></a>
             <a href="http://bit.do/MLSpotify" target="_blank"><i class="fab fa-spotify"></i></a>
             <a href="http://bit.do/MaorLeviApple" target="_blank"><i class="fab fa-itunes-note"></i></a>
             <a href="http://bit.do/MaorLeviSoundcloud" target="_blank"><i class="fab fa-soundcloud"></i></a>
