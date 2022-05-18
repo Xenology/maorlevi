@@ -108,7 +108,7 @@ body {
   align-items: center;
   max-width: 250px;
   width: 20%;
-  margin: 50px auto;
+  margin: 20px auto;
   padding: 20px;
   height: 25px;
 }
@@ -124,9 +124,22 @@ body {
   transition: transform .2s;
 }
 
+.title-text {
+	position: relative;
+  margin-top: 5px;
+  padding-left: 4px;
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  font-size: 32px;
+  line-height: 54px;
+  text-align: center;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
 .youtube {
 	width: 25%;
-	margin: 50px auto;
+	margin: 20px auto;
 	border: 5px white solid;
 }
 
@@ -141,7 +154,7 @@ body {
   position: absolute;
   right: 0;
   bottom: 0;
-	width: 50px;
+	width: 20px;
 	text-align: center;
 	align-items: center;
 	justify-content: center;

@@ -23,6 +23,10 @@
           <div class="logo">
             <img src="img/logo.png" />
           </div>
+          <div class="title-text">
+            <h4>AM I DREAMING? EP</h4>
+            <h4>OUT NOW</h4>
+          </div>
           <div class="clearfix"></div>
           <div class="buy-listen-button">
             <a target="_blank" href="https://anjunabeats.ffm.to/mlaidr.oyd">Buy / Listen</a>
