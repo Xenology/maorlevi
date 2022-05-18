@@ -29,7 +29,7 @@
           </div>
           <div class="clearfix"></div>
           <div class="youtube">
-            <iframe width="100%" src="https://www.youtube.com/watch?v=RgXYp_QvWB0" frameborder="0"></iframe>
+            <iframe width="100%" src="https://www.youtube.com/embed/RgXYp_QvWB0" frameborder="0"></iframe>
           </div>
           <div class="clearfix"></div>
 
