@@ -5,6 +5,7 @@ html {
 	display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 body {
@@ -16,6 +17,10 @@ body {
  * Tablet Styles
  **/
 @media only screen and (max-width: 1000px) {
+	.shows {
+		display:  none;
+	}
+
 	.desktop-socials {
 		display: none;
 	}
@@ -171,6 +176,22 @@ i {
 	height: 33px;
   animation: fadeIn ease 1s;
   transition: transform .2s;
+}
+
+.shows {
+	background: white;
+  position: absolute;
+  z-index: 1;
+  padding: 10px;
+  border-radius: 20px;
+  color: black;
+  top: 20px;
+  left: 20px;
+}
+
+.shows:hover { 
+	text-decoration: none; 
+	cursor:  pointer;
 }
 
 .clearfix {

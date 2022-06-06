@@ -13,12 +13,27 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css?v=<?php echo time(); ?>">
+        <link rel="stylesheet" href="css/shows.css?v=<?php echo time(); ?>">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Rozha+One&display=swap" rel="stylesheet">
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body>
       <div class="sky"></div>    
       <div class="content">
+        <label for="menu-control" class="shows">Upcoming shows</label>
+
+        <section class="flyout">
+          <input type="checkbox" id="menu-control" class="menu-control">
+          
+          <aside class="sidebar">
+            <div class="songkick">
+              <a href="https://www.songkick.com/artists/2467251" class="songkick-widget" data-theme="light" data-track-button="on" data-detect-style="true" data-background-color="transparent" data-locale="en">Maor Levi tour dates</a>
+            </div>
+            <label for="menu-control" class="sidebar__close"></label>
+          </aside>
+        </section>
+        
         <div class="featured">
           <div class="logo">
             <img src="img/logo.png" />
@@ -73,6 +88,12 @@
         </div>
       </div>
 
+
+    
+
+
+
+      <script src="//widget.songkick.com/2467251/widget.js"></script>
       <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
       <script>
         window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
