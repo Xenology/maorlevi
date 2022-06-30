@@ -51,7 +51,9 @@
             <iframe width="100%" src="https://www.youtube.com/embed/RgXYp_QvWB0" frameborder="0"></iframe>
           </div>
           <div class="clearfix"></div>
-
+          <div class="tour-button">
+            <a href="/tour.html">Upcoming Shows</a>
+          </div>
           <div class="mobile-socials">
             <div class="social-container">
               <div class="row">

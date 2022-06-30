@@ -58,6 +58,23 @@ body {
 		width:  55% !important;
 		margin: 25px auto !important;
 	}
+
+	.tour-button {
+		font-size: 3vw !important;
+		width: 40% !important;
+		margin: 25px auto !important;
+		display: flex !important;
+		background: white;
+		color: black;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		max-width: 250px;
+		width: 20%;
+		margin: 20px auto;
+		padding: 20px;
+		height: 25px;
+	}
 }
 
 /** 
@@ -196,6 +213,10 @@ i {
 
 .clearfix {
 	clear: both;
+}
+
+.tour-button {
+	display: none;
 }
 
 i:hover {
