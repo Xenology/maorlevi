@@ -17,8 +17,12 @@ body {
  * Tablet Styles
  **/
 @media only screen and (max-width: 1000px) {
+	.content {
+		overflow: scroll;
+	}
+
 	.shows {
-		display:  none;
+		display: none;
 	}
 
 	.desktop-socials {
