@@ -39,6 +39,7 @@ body {
 	margin: 0 auto;
 	z-index: 100;
 	background-color: white;
+	overflow: scroll;
 }
 
 .home-button {
@@ -62,6 +63,130 @@ body {
 	z-index: 100;
 	position: relative;
 
+}
+
+/**
+ * Desktop Styles
+ **/
+@media only screen and (min-width: 1000px) {
+	.home-button a {
+		font-size: 1vw !important;
+	}
+}
+
+/**
+ * Tablet Styles
+ **/
+@media only screen and (max-width: 1000px) {
+	.content {
+		overflow: scroll;
+	}
+
+	.shows {
+		display: none;
+	}
+
+	.desktop-socials {
+		display: none;
+	}
+
+	.mobile-socials {
+		display: flex !important;
+		z-index: 1;
+		justify-content: center;
+	}
+
+	.mobile-socials .row {
+		display: flex;
+		justify-content: center;
+	}
+
+	.mobile-socials .row i {
+		margin:  10px;
+	}
+
+	.logo {
+		width: 55% !important;
+		margin: 0 auto 25px auto !important;
+	}
+
+	.buy-listen-button {
+		width: 40% !important;
+		margin: 25px auto !important;
+	}
+
+	.buy-listen-button a {
+		font-size: 3vw !important;
+	}
+
+	.youtube {
+		width:  55% !important;
+		margin: 25px auto !important;
+	}
+
+	.tour-button {
+		font-size: 3vw !important;
+		width: 40% !important;
+		margin: 25px auto !important;
+		display: flex !important;
+		background: white;
+		color: black;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		max-width: 250px;
+		width: 20%;
+		margin: 20px auto;
+		padding: 20px;
+		height: 25px;
+	}
+}
+
+.logo {
+	position: relative;
+	z-index: 100;
+	width: 15%;	
+	margin: 15px  auto;
+}
+
+.logo img {
+	animation: fadeIn ease 1s;
+	width: 100%;
+}
+
+.desktop-socials {
+	animation-delay: 2s;
+	animation: fadeIn ease 1s;
+	margin: 15px;
+	position: absolute;
+	right: 40px;
+	bottom: 40px;
+	width: 20px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	z-index: 100;
+}
+
+i {
+	border-radius: 25px;
+	background: #e2e2e2;
+	color: black;
+	padding: 10px;
+	margin: 7px auto;
+	width: 33px;
+	height: 33px;
+  animation: fadeIn ease 1s;
+  transition: transform .2s;
+}
+
+
+i:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+a:hover {
+  transform: scale(1.1); /* (110% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 
