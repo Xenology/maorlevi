@@ -9,7 +9,8 @@
         <title>Maor Levi</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+        <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+        <link rel="icon" type="image/x-icon" href="img/favicon.ico">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css?v=<?php echo time(); ?>">
@@ -36,7 +37,7 @@
         
         <div class="featured">
           <div class="logo">
-            <img src="img/logo.png" />
+            <img src="img/new-logo.png" />
           </div>
           <div class="title-text">
             <h4>AM I DREAMING? EP</h4>
