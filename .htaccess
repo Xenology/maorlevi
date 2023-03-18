@@ -9,3 +9,6 @@ RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 
 RedirectMatch 404 /\.git
+
+ErrorDocument 404 http://maorlevi.com/
+ErrorDocument 500 http://maorlevi.com/
