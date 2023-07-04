@@ -90,7 +90,8 @@ body {
 	width: 97.5%;
 	position: absolute;
   background-size: cover;
-	background-image: url('../img/background.jpeg');
+	/*background-image: url('../img/background.jpeg');*/
+	background-color: black;
   z-index: 1;
   opacity: 50%;
 }
@@ -106,6 +107,7 @@ body {
 
 .featured {
   height: 80%;
+  width: 100%;
   padding: 0;
   margin: 0;
   display: block;
@@ -116,8 +118,8 @@ body {
 }
 
 .logo {
-  width: 25%;	
-  margin: 0 auto 50px auto;
+  width: 25%;
+  margin: 10% auto 50px auto;
 }
 
 .logo img {
