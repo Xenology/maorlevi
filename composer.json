@@ -2,7 +2,11 @@
     "name": "memaleph/memaleph",
     "description": "Memaleph microsite",
     "type": "project",
-    "require": {},
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.6",
+        "slim/twig-view": "^3.3"
+    },
     "scripts": {
         "start": "php -S localhost:8085;"
     },
